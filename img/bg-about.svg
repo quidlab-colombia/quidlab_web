@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="2581" viewBox="0 0 1920 2581">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdc830"/>
+      <stop offset="1" stop-color="#f37335"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8e2de2"/>
+      <stop offset="1" stop-color="#4a00e0"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="1920" height="2581"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="1920" height="2581" fill="#fff"/>
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(-142 199)">
+      <circle id="Elipse_1" data-name="Elipse 1" cx="40" cy="40" r="40" transform="translate(1528.101 649.367)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_1" data-name="Trazado 1" d="M73.137,25.633c104.62,0,170.454,69.848,170.454,174.467s-56,197.357-160.617,197.357S-144.953,304.72-144.953,200.1-31.483,25.633,73.137,25.633Z" transform="translate(1395.718 -205.633)" fill="url(#linear-gradient-2)"/>
+      <circle id="Elipse_2" data-name="Elipse 2" cx="20" cy="20" r="20" transform="translate(790 2272.367)" opacity="0.5" fill="url(#linear-gradient-2)"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M502.119-5.507C726.35,73.354,301.066,273.608,456.186,371.278s-19.724,303.067-145.649,136.9,111.458,63.062-52.294-154.992S277.887-84.369,502.119-5.507Z" transform="matrix(0.891, -0.454, 0.454, 0.891, 115.765, 1703.986)" fill="url(#linear-gradient)"/>
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="39" height="39" transform="translate(1435 1277.761) rotate(-45)" opacity="0.5" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
