@@ -3,19 +3,9 @@
 <head>
 <title>Qüid Lab | Servicios</title>
 <meta charset="UTF-8">
-<link href="css/reset.css">
-<link href="css/style.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134629123-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-134629123-1');
-</script>
-    
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/style-v1.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,600,700" rel="stylesheet">
 </head>
 <body class="about">
     
@@ -26,24 +16,51 @@
     <div id="logo">
         <a href="index.html"><img src="img/logo.png" height="23px" width="108px" /></a>
     </div>
+    
+    <div id="menu-bar">
+        
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        
+        <ul class="nav" id="nav">
+        
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="quienes-somos.html">Contacto</a></li>
+        
+        </ul>
+    
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
 
-    <div id="nav">
+    <nav>
         <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
             <li><a href="servicios.html">Servicios</a></li>
         </ul>
-    </div>    
-
+    </nav>
     
-    </header>
+</header>
 
 <div id="content">
     
     <div id="principal-services">
         
+        <div class="imagen-destacada">
+        
+            <img src="img/servicios.svg" />
+            
+        </div>
+        
         <div class="entrada">
         
-        <h1>Servicios para innovar con qüid</h1>
+            <h1>Servicios para innovar con qüid</h1>
         
             <p>Nuestro propósito en Qüid Lab es eliminar las barreras que existen para la innovación de impacto en el país. Por eso nuestro portafolio se concentra en el diseño de servicios, productos y experiencias, en el desarrollo de proyectos con tecnologías digitales, en la identificación de tendencias y en la promoción de la cultura de la innovación al interior de las organizaciones.</p>
             
@@ -55,81 +72,81 @@
     
     <div id="servicios">
         
-            <div id="desc" class="izquierda">
+        <div id="servicio">
+            
+            <div class="img-desc amarillo">
                 
-                <div class="description">
+                <img alt="Icono para el servicio de investigación" src="img/investigacion.svg" />
+            
+            </div>
+            
+            <div class="desc">
                     
-                    <h5>Investigación, diseño e implementación</h5>
+                <h2>Investigación, diseño e implementación</h2>
 
-                    <p>Ayudamos a las organizaciones a encontrar el quid de su cuestión, bien sea que se trate de entender a sus usuarios o la dimensión del reto que quieren resolver, de implementar una solución tecnológica para incrementar el impacto o, simplemente,  diseñar un producto o servicio con una visión innovadora y centrada en la experiencia del usuario final.</p>
+                <p>Ayudamos a las organizaciones a encontrar el quid de su cuestión, bien sea que se trate de entender a sus usuarios o la dimensión del reto que quieren resolver, de implementar una solución tecnológica para incrementar el impacto o, simplemente,  diseñar un producto o servicio con una visión innovadora y centrada en la experiencia del usuario final.</p>
                 
-                </div>
-            
             </div>
             
-            <div id="img-desc" class="color-one derecha">
-                
-                <img src="img/investigacion.svg" />
-            
-            </div>
-            
-            <div id="img-desc" class="color-two izquierda">
-                
-                <img src="img/formacion.svg" />
-            
-            </div>
-        
-            <div id="desc" class="derecha">
-                
-                <div class="description">
-
-                    <h5>Formación y transformación</h5>
-
-                    <p>Acompañamos el proceso de potenciar la cultura de la innovación al interior de las organizaciones, pero también brindamos coaching y acompañamiento personalizado para que un equipo de trabajo o un actor específico adquieran habilidades y métodos que les permitan innovar de forma permanente.</p>
-                    
-                </div>
-            
-            </div>
-        
-            <div id="desc" class="izquierda">
-                
-                <div class="description">
-                
-                    <h5>Diseño de unidades de innovación</h5>
-
-                    <p>Ayudamos a las organizaciones, públicas y privadas, a crear unidades de innovación enfocadas en resultados, en iteraciones rápidas, en experimentación y retroalimentación constante.</p>
-                    
-                </div>
-            
-            </div>
-            
-            <div id="img-desc" class="color-three derecha">
-                
-                <img src="img/unidades-innovacion.svg" />
-            
-            </div>
-            
-            <div id="img-desc" class="color-four izquierda">
-                
-                <img src="img/iteraciones.svg" />
-            
-            </div>
-        
-            <div id="desc" class="derecha">
-                
-                <div class="description">
-                
-                    <h5>Iteraciones rápidas para problemas complejos</h5>
-
-                    <p>A través de un modelo de iteraciones rápidas, brindamos soluciones a problemas que requieren una intervención especial por su complejidad o urgencia, todo bajo el marco de la innovación, la tecnología y la creación de valor.</p>
-                    
-                </div>
-            
-            </div>
-        
         </div>
-   
+        
+        <div id="servicio">
+                    
+            <div class="img-desc naranja">
+                
+                <img alt="Icono para el servicio de formación" src="img/formacion.svg" />
+            
+            </div>
+            
+            <div class="desc">
+            
+                <h2>Formación y transformación</h2>
+
+                <p>Acompañamos el proceso de potenciar la cultura de la innovación al interior de las organizaciones, pero también brindamos coaching y acompañamiento personalizado para que un equipo de trabajo o un actor específico adquieran habilidades y métodos que les permitan innovar de forma permanente.</p>
+                
+            </div>
+            
+        </div>
+        
+        <div id="servicio">
+            
+            <div class="img-desc morado">
+                
+                <img alt="Icono para el servicio de unidades de innovación" src="img/unidades-innovacion.svg" />
+            
+            </div>
+            
+            <div class="desc">
+                
+                <h2>Diseño de unidades de innovación</h2>
+
+                <p>Ayudamos a las organizaciones, públicas y privadas, a crear unidades de innovación enfocadas en resultados, en iteraciones rápidas, en experimentación y retroalimentación constante.</p>
+                
+            </div>
+            
+        </div>
+        
+        <div id="servicio">
+            
+            <div class="img-desc indigo">
+                
+                <img alt="Icono para el servicio de iteraciones rápidas" src="img/iteraciones.svg" />
+            
+            </div>
+            
+            <div class="desc">
+                
+            <h2>Iteraciones rápidas para problemas complejos</h2>
+
+            <p>A través de un modelo de iteraciones rápidas, brindamos soluciones a problemas que requieren una intervención especial por su complejidad o urgencia, todo bajo el marco de la innovación, la tecnología y la creación de valor.</p>
+                
+            </div>
+                
+        </div>
+        
     </div>
+   
+</div>
 
 </main>
     
@@ -151,6 +168,18 @@
     </div>
     
 </footer>
+    
+<script src="js/script.js"></script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134629123-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134629123-1');
+</script>    
 
 </body>
 

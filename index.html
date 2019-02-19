@@ -3,21 +3,11 @@
 <head>
 <title>Qüid Lab | Innovación y tecnología con sentido</title>
 <meta charset="UTF-8">
-<link href="css/reset.css">
-<link rel="stylesheet" href="css/style.css" />
-<link href="css/style.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins" rel="stylesheet">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134629123-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-134629123-1');
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="css/style-v1.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,600,700" rel="stylesheet">
 </head>
-<body class="home">
+<body>
 <main>
 
 <header>
@@ -25,18 +15,47 @@
     <div id="logo">
         <a href="index.html"><img src="img/logo.png" height="23px" width="108px" /></a>
     </div>
+    
+    <div id="menu-bar">
+        
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        
+        <ul class="nav" id="nav">
+        
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="quienes-somos.html">Contacto</a></li>
+        
+        </ul>
+    
+    </div>
+    
+    <div class="menu-bg" id="menu-bg"></div>
 
-    <div id="nav">
+    <nav>
         <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
             <li><a href="servicios.html">Servicios</a></li>
         </ul>
-    </div>    
+    </nav>
+    
 </header>
 
 <div id="content">
     
     <div id="principal">
+        
+        <div class="imagen-destacada">
+            
+            <img src="img/imagen-portada.svg" />
+        
+        </div>
         
         <div class="entrada">
         
@@ -52,11 +71,19 @@
     
     <div id="portfolio">
         
+        <div class="imagen-destacada">
+            
+            <img src="img/servicios.svg" />
+        
+        </div>
+        
         <h2><a href="servicios.html">Servicios con Qüid</a></h2>
         
         <div id="services">
 
             <div id="service">
+                
+                <a href="servicios.html"><img src="img/investigacion-home.svg" /></a>
 
                 <h3><a href="servicios.html">Investigación, diseño e implementación</a></h3>
 
@@ -67,6 +94,8 @@
             </div>
 
             <div id="service">
+                
+                <a href="servicios.html"><img src="img/formacion-home.svg" /></a>
 
                 <h3><a href="servicios.html">Diseño de unidades de innovación</a></h3>
 
@@ -77,6 +106,8 @@
             </div>
 
             <div id="service">
+                
+                <a href="servicios.html"><img src="img/unidades-innovacion-home.svg" /></a>
 
                 <h3><a href="servicios.html">Formación y <br>transformación</a></h3>
 
@@ -87,6 +118,8 @@
             </div>
 
             <div id="service">
+                
+                <a href="servicios.html"><img src="img/iteraciones-home.svg" /></a>
 
                 <h3><a href="servicios.html">Iteraciones rápidas para problemas complejos</a></h3>
 
@@ -98,15 +131,15 @@
         
         </div>    
         
-        <div id="portfolio-img">
-            <img src="img/imagen-portfolio.svg" />
-        </div>
-        
     </div>
 
     <div id="corporate">
         
-        <img src="img/imagen-id.svg" class="corporate-img" />
+        <div class="imagen-destacada">
+        
+            <img src="img/imagen-id.svg" />
+            
+        </div>
         
         <div id="quienes-somos">
     
@@ -142,10 +175,22 @@
     </div>
     
     <div id="contacto-footer">
-        <a href="mailto:quidlab.co@gmail.com">Contacto</a>
+        <a href="mailto:contacto@quidlab.co">Contacto</a>
     </div>
     
 </footer>
+    
+<script src="js/script.js"></script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134629123-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134629123-1');
+</script>    
 
 </body>
 
